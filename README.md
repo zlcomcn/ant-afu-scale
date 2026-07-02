@@ -2,10 +2,6 @@
 
 逆向蚂蚁阿福(游客) APK 提取的体脂秤 BLE 协议，用 Flutter 重写的跨平台 App。
 
-## 协议来源
-
-逆向 APK: `com.antgroup.aijk.android` (蚂蚁阿福 v1.1.22.8000)
-协议包: `cn.icomon.icdevicemanager` BLE体脂秤协议栈
 
 ## 快速开始
 
