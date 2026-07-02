@@ -1,4 +1,4 @@
-# Flutter 蓝牙体脂秤 App
+# 蚂蚁阿福 Flutter 蓝牙体脂秤 App
 
 逆向蚂蚁阿福(游客) APK 提取的体脂秤 BLE 协议，用 Flutter 重写的跨平台 App。
 
