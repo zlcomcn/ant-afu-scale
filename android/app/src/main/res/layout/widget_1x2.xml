@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1×2 小组件 — RelativeLayout 可靠布局 + 极光背景 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/widget_bg_aurora_flat">
+
+    <!-- 体重 (左侧) -->
+    <TextView
+        android:id="@+id/widget_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="--"
+        android:textColor="#1A1A2E"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginEnd="8dp" />
+
+    <!-- kg 标签 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/widget_weight"
+        android:layout_alignBaseline="@id/widget_weight"
+        android:text="kg"
+        android:textColor="#777799"
+        android:textSize="12sp" />
+
+    <!-- BMI (右上) -->
+    <TextView
+        android:id="@+id/widget_bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="BMI --"
+        android:textColor="#3498DB"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1" />
+
+    <!-- 体脂 (右下) -->
+    <TextView
+        android:id="@+id/widget_fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="--%"
+        android:textColor="#E67E22"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">全量数据：体重、体脂、BMI、肌肉率</string>
+    <string name="widget_description_1x1">仅显示体重</string>
+    <string name="widget_description_1x2">体重、体脂率、BMI</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 极光渐变 — 扁平版本（widget 兼容更好） -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:type="linear"
+        android:angle="45"
+        android:startColor="#E8F5E9"
+        android:centerColor="#E3F2FD"
+        android:endColor="#F3E5F5" />
+    <corners android:radius="18dp" />
+    <stroke
+        android:width="0.5dp"
+        android:color="#40FFFFFF" />
+</shape>
